@@ -4,15 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice Task</title>
-    <link rel="stylesheet" href="./styles/task-1.css">
-    <link rel="stylesheet" href="./styles/task-2.css">
+    <!-- Google font link -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+
+     .font
+     {
+        
+        font-family: "Lexend", sans-serif;
+     }
+
+        .btn
+        {
+
+            /* background-color: #7f8c8d; */
+            text-decoration: none;
+            padding: 15px;
+            font-size: 20px;
+            color: black;
+            border-radius: 10px;
+            font-weight: bold;
+            border: 2px solid #117a65 ;
+           
+        }
+
+
+
+        .button
+         {
+          
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap:15px;
+            margin-top: 20%;
+            }
+
+            .btn-task1:hover
+            {
+               
+                background-color: rgba(0, 255, 255, 0.42);
+             
+            }
+
+            .btn-task2:hover
+            {
+               
+                background-color: gainsboro;
+             
+            }
+    </style>
 </head>
 <body>
 
-    <main>
+    <main class="font">
 
-       <a href="./task-1.html">Practice Task - 01</a>
-       <a href="./task-2.html">Practice Task - 02</a>
+      <div class="button">
+        <a class="btn btn-task1"  href="./task-1.html" target="_blank">Practice Task - 01</a>
+        <a class="btn btn-task2" href="./task-2.html" target="_blank">Practice Task - 02</a>
+      </div>
     </main>
     
 </body>

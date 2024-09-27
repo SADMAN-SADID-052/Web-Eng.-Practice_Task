@@ -1,0 +1,269 @@
+*
+{
+
+   
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body
+{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.font
+{
+   
+   font-family: "Lexend", sans-serif;
+}
+
+
+/* shear function */
+.fixed_width
+{
+    max-width: 1200px;
+
+}
+
+/* Main design start here */
+.shop
+{
+    background-color:  #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+.MyShop
+{
+
+    display: flex;
+    justify-content:s;
+}
+
+.MyShop>p{
+
+    color: white;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.MyShopimg
+
+{
+    height: 80px;
+    width: 90px;
+   
+    /* border: 1px solid black; */
+    padding: 10px;
+    border-radius: 50%;
+}
+   
+
+.contact
+{
+    color: white;
+    font-weight:12px;
+    margin-right:15px ;
+}
+
+/* nav bar design start here */
+.navBar
+{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #150e0eed;
+    padding: 10px;
+    
+}
+
+.navBar>ul
+{
+    display: flex;
+    gap:20px;
+    list-style: none;
+   
+   
+    
+}
+
+.navBar ul>li>a{
+
+    text-decoration: none;
+    font: bold;
+    color: white;
+}
+
+/* Banner section start here */
+
+.banner
+{
+    background-color: rgba(255, 0, 0, 0.829);
+    padding: 50px;
+    color: white;
+
+    
+}
+
+.banner-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    
+}
+.banner-container>h1{
+
+    color: white;
+
+}
+
+.banner-container>p{
+
+    font-size: 13px;
+
+}
+
+.banner-btn
+{
+    padding: 15px;
+    background-color: white;
+    color: red;
+    border-radius: 10px;
+    border: 0;
+    font-weight:bold ;
+    cursor: pointer;
+}
+.banner-btn:hover {
+    font-size: 150%;
+  }
+
+
+
+  /* Some features section start here */
+
+  .features_container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.feature-item {
+    text-align: center;
+   
+}
+
+.feature-item h3 {
+    color: red;
+    font-size:14px;
+    margin-bottom: 4px;
+    margin-bottom: 15px;
+}
+
+.feature-item p {
+    color: black;
+    font-size: 9.7px;
+    font-weight: 600;
+}
+
+
+/* product Card section start here */
+
+.featured-products {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #f8f9fa;
+   
+}
+
+.featured-products h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.products-container 
+{
+    
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 30px;
+   margin-bottom: 30px;
+
+}
+
+.product-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product-card h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product-card .price {
+    font-size: 20px;
+    color: red;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.product-card button {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-card:nth-child(4)
+
+{
+  grid-column: 2 / span 1; 
+}
+
+.product-card button:hover {
+    background-color: darkred;
+}
+
+
+/* Footer Section design */
+
+.footer-container
+{
+
+    color: white;
+    font-weight: 400;
+    padding: 30px;
+    background-color: #333333;
+    text-align: center;
+    margin-bottom: 30px;
+   
+}
